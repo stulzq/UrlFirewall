@@ -86,3 +86,18 @@ The url field is the http request path we need to match.It supports wildcard `*`
 ### 5.End
 
 Now,you access `/api/cart/add` etc.Will be get 404.Enjoy yourself.
+
+## Extensibility
+
+If you want to implement validation logic yourself, or You want to verify by getting data from the database, redis etc.You can implement the `IUrlFirewallValidator` interface.Then you can replace the default implementation with the `AddUrlFirewallValidator` method.
+
+e.g:
+
+````csharp
+services.AddUrlFirewall(options =>
+{
+    options.RuleType = UrlFirewallRuleType.Black;
+    options.SetRuleList(Configuration.GetSection("UrlBlackList"));
+    options.StatusCode = HttpStatusCode.NotFound;
+}).AddUrlFirewallValidator<CustomValidator>();
+````
