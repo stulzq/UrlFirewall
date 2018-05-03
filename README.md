@@ -1,5 +1,5 @@
 [![Latest version](https://img.shields.io/nuget/v/UrlFirewall.AspNetCore.svg)](https://www.nuget.org/packages/UrlFirewall.AspNetCore/) 
-![DUB](https://img.shields.io/dub/l/vibe-d.svg)
+[![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/stulzq/UrlFirewall/blob/master/LICENSE)
 # UrlFirewall
 
 UrlFirewall is a lightweight, fast filtering middleware for http request urls.It supports blacklist, whitelist mode.Supports persisting filter rules to any media.You can use it in webapi, gateway, etc.
