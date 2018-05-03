@@ -10,12 +10,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E9DCC6B3-1C9B-4D70-AFDE-0A457684907A}"
 	ProjectSection(SolutionItems) = preProject
 		build\package.props = build\package.props
+		README.md = README.md
 		build\version.props = build\version.props
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{17D54045-2DC5-4A82-B33D-87D3286E5966}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlFirewall.AspNetCore.Test", "test\UrlFirewall.AspNetCore.Test\UrlFirewall.AspNetCore.Test.csproj", "{E6642518-B20E-4247-B406-BCE9C4D916DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrlFirewall.AspNetCore.Test", "test\UrlFirewall.AspNetCore.Test\UrlFirewall.AspNetCore.Test.csproj", "{E6642518-B20E-4247-B406-BCE9C4D916DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
