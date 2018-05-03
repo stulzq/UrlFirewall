@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F0F7880E-201
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E9DCC6B3-1C9B-4D70-AFDE-0A457684907A}"
 	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
 		build\package.props = build\package.props
 		README.md = README.md
 		build\version.props = build\version.props
