@@ -1,4 +1,4 @@
-[![Latest version](https://img.shields.io/nuget/v/UrlFirewall.AspNetCore.svg)](https://www.nuget.org/packages/UrlFirewall.AspNetCore/) 
+ï»¿[![Latest version](https://img.shields.io/nuget/v/UrlFirewall.AspNetCore.svg)](https://www.nuget.org/packages/UrlFirewall.AspNetCore/) 
 [![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/stulzq/UrlFirewall/blob/master/LICENSE) ![support-netstandard2.0](https://img.shields.io/badge/support-.NET%20Standard%202.0-green.svg) ![support-netcore2.0](https://img.shields.io/badge/support-.NET%20Core%202.0-green.svg) ![Jenkins](https://img.shields.io/jenkins/s/https/ci.xcmaster.com/job/UrlFirewall.svg)
 # UrlFirewall
 
@@ -6,7 +6,7 @@ UrlFirewall is a lightweight, fast filtering middleware for http request urls.It
 
 ## Language
 
-English(Current) | [ÖÐÎÄ](http://www.cnblogs.com/stulzq/p/8987632.html)
+English(Current) | [ä¸­æ–‡](http://www.cnblogs.com/stulzq/p/8987632.html)
 
 ## Get start
 
